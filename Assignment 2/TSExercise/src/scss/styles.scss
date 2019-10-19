@@ -1,0 +1,27 @@
+$fontColor: #0091aa;
+$colorHeading: #be4a14;
+#content  // div with id: content
+{
+    color: $fontColor;
+}
+
+/*#table1, td{
+
+    color:rebeccapurple;
+    font-size: 20px;
+    background-color: gray;
+    border-color: greenyellow;
+    border:1px solid black
+    
+}
+*/
+tr:nth-child(even) {background: rgb(73, 195, 243)}
+tr:nth-child(odd) {background: rgb(255, 116, 116)}
+h2
+{
+    color: $colorHeading;
+}
+
+h1{
+    @extend h2;
+}
