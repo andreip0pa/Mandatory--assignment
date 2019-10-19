@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookClassLib</name>
+    </assembly>
+    <members>
+        <member name="P:BookClassLib.Book.Title">
+            <summary>
+            Title of the book, should be at least 2 characters long
+            </summary>
+        </member>
+        <member name="P:BookClassLib.Book.Author">
+            <summary>
+            Author of the book
+            </summary>
+        </member>
+        <member name="P:BookClassLib.Book.PageNumber">
+            <summary>
+            Number of pages
+            </summary>
+        </member>
+        <member name="P:BookClassLib.Book.Isbn13">
+            <summary>
+            Unique identifier for a book, should be 13 characters long
+            </summary>
+        </member>
+        <member name="M:BookClassLib.Book.#ctor(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Basic book class
+            </summary>
+            <param name="title">Title of the book</param>
+            <param name="author">Author of the book</param>
+            <param name="pageNumber">Number of pages</param>
+            <param name="isbn13">ISBN of the book, unique identifier </param>
+        </member>
+    </members>
+</doc>
